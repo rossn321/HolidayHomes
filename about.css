@@ -1,0 +1,56 @@
+html,body, footer {
+  font-family: Raleway;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: lightgrey;
+  border-radius: 10px 10px 10px 10px;
+  color: black;
+  position: absolute;
+  width: 98%;
+  margin-bottom: 5px;
+  bottom: 0;
+}
+
+.flexCenter {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexAround {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*NAV*/
+
+.sizeNav {
+  height: 100px;
+}
+
+.sizeLinks {
+  width: 25%;
+}
+
+.sizeLink {
+  width: 140px;
+  height: 99px;
+}
+
+.decorationNone {
+  text-decoration: none;
+}
+
+.borderNav {
+  border-top: 1px solid blue;
+}
